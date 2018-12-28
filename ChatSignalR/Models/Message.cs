@@ -10,5 +10,6 @@ namespace ChatSignalR.Models
         public string UserName { get; set; }
         public string MessageBody { get; set; }
         public DateTime Time { get; set; }
+        public Guid Id { get; set; }
     }
 }
